@@ -1,0 +1,17 @@
+{
+    "win98se_en": {
+        "file": "win98se_en_base.vhd",
+        "name": "Windows 98 SE English",
+        "description": "English Windows 98 Second Edition base image"
+    },
+    "win98se_jp": {
+        "file": "win98se_jp_base.vhd",
+        "name": "Windows 98 SE Japanese",
+        "description": "Japanese Windows 98 Second Edition base image"
+    },
+    "dos622": {
+        "file": "dos622_base.vhd",
+        "name": "MS-DOS 6.22",
+        "description": "Plain MS-DOS 6.22 for older games"
+    }
+}

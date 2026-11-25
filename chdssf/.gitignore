@@ -1,0 +1,12 @@
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+.idea/

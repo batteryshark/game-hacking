@@ -1,0 +1,117 @@
+# DOSBox-X Configuration Template
+# Based on eXo's Windows 98 configuration
+# Variables: {title}, {c_drive_vhd}, {d_drive_folder}, {cd_image}
+
+[sdl]
+fullscreen        = false
+fulldouble        = false
+fullresolution    = desktop
+windowresolution  = original
+output            = opengl
+autolock          = true
+middle_unlock     = manual
+sensitivity       = 100
+mouse_emulation   = locked
+waitonerror       = true
+priority          = higher,normal
+showmenu          = true
+
+[dosbox]
+title                     = {title}
+fastbioslogo              = false
+startbanner               = false
+machine                   = svga_s3
+memsize                   = 64
+a20                       = mask
+
+[render]
+frameskip      = 0
+aspect         = false
+doublescan     = true
+scaler         = normal2x
+autofit        = true
+
+[cpu]
+core       = auto
+fpu        = true
+cputype    = pentium_mmx
+cycles     = max
+apmbios    = true
+isapnpbios = true
+
+[keyboard]
+aux                     = true
+allow output port reset = true
+controllertype          = auto
+auxdevice               = intellimouse
+
+[sblaster]
+sbtype                       = sb16
+sbbase                       = 220
+irq                          = 7
+dma                          = 1
+hdma                         = 5
+sbmixer                      = true
+oplmode                      = auto
+oplrate                      = 44100
+goldplay                     = true
+blaster environment variable = true
+
+[gus]
+gus      = false
+gusbase  = 240
+gusirq   = 5
+gusdma   = 3
+ultradir = C:\ULTRASND
+
+[midi]
+mpu401     = intelligent
+mpubase    = 0
+mididevice = default
+samplerate = 44100
+
+[mixer]
+nosound   = false
+rate      = 44100
+blocksize = 1024
+prebuffer = 25
+
+[speaker]
+pcspeaker = true
+pcrate    = 44100
+disney    = false
+
+[joystick]
+joysticktype = auto
+timed        = true
+autofire     = false
+
+[voodoo]
+voodoo_card   = auto
+voodoo_maxmem = true
+
+[ide, primary]
+int13fakeio  = true
+int13fakev86io = false
+
+[ide, secondary]
+int13fakeio  = true
+int13fakev86io = false
+cd-rom insertion delay = 4000
+
+[fdc, primary]
+int13fakev86io = false
+
+[dos]
+azerty           = auto
+keyboardlayout   = auto
+xms              = true
+hma              = true
+hma allow reservation = true
+ems              = true
+umb              = true
+ver              = 7.1
+
+[autoexec]
+# Mounts configured by game launcher
+{autoexec}

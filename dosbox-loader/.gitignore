@@ -1,0 +1,57 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VHD disk images (large binary files)
+*.vhd
+*.VHD
+
+# CD images (user-provided)
+*.iso
+*.ISO
+*.cue
+*.CUE
+*.bin
+*.BIN
+*.img
+*.IMG
+
+# User config (may contain local paths)
+config.json
+
+# Game data directories (created at runtime)
+games/
+saves/
+
+# Base images config (user-specific, copy from example)
+base_images/base_images.json

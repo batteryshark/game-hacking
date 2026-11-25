@@ -1,0 +1,32 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Build output
+build/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Game data and tool output never belong here
+*.ADO
+*.ADT
+*.packed
+*.pack
+*.mtf
+*.MTF
+*.tbb
+*.itp
+*.chd
+*.iso
+*.bin
+*.dec
+*.tmp
